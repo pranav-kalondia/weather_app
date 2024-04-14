@@ -1,0 +1,226 @@
+
+*{
+padding: 0;
+margin: 0;
+}
+
+.card{
+    width: 90%;
+    height: 500px;
+    max-width: 470px;
+    background-image: linear-gradient(to right, #cc2b5e 0%, #753a88 100%);
+    margin: 10%;
+    margin-left:500px;
+    margin-top: 50px;
+    border-radius: 20px;
+padding: 40px 35px;
+text-align: center;
+}
+.search{
+     display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    gap: 10px;
+}
+.bar{
+    padding-left: 20px;
+    width: 500px;
+    border-radius: 30px;
+    border-color: #ebfffc;
+    border: 0;
+    outline: 0;
+}
+.btn{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc ;
+    border-radius: 100%;
+    border-color: transparent;
+    width: 70px;
+    height: 60px;
+    cursor: pointer;
+}
+.btn img{
+    width: 30px;
+}
+.temp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+}
+
+.weather {
+   
+    width: 170px;
+}
+.report{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    padding-top: 10px;
+    
+}
+
+.humitext{
+    color: white;
+    font-size: 25px;
+}
+.windtext{
+    color: white;
+    font-size: 25px;
+}
+.humidity{
+    display: flex;
+    gap: 20px;
+ 
+}
+.temp {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px; 
+}
+.wind{
+    display: flex;
+    gap: 20px;
+
+}
+.humidity img{
+    width: 60px;
+    height: 60px;
+}
+.wind img{
+    width: 60px;
+    height: 60px;
+}
+.city{
+     color: white;
+     font-size: 40px;
+     padding-bottom: 50px;
+     padding-top: 20px;
+}
+.humi{
+    position: absolute;
+    top: 540px;
+    left: 638px;
+    color: white;
+    font-size: 20px;
+}
+.win{
+    position: absolute;
+    top: 540px;
+    left: 872px;
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width:932px)
+{
+
+    .card{
+        width: 79%;
+        height: 850px;
+        max-width: 470px;
+        background-image: linear-gradient(to right, #cc2b5e 0%, #753a88 100%);
+        margin: 10%;
+        margin-left:10px;
+        margin-top: 5px;
+        border-radius: 20px;
+    padding: 5px 35px;
+    text-align: center;
+    }
+    .search{
+        padding-top: 20px;
+        display: flex;
+       justify-content: center;
+       border-radius: 10px;
+       gap: 5px;
+   }
+  
+   .bar{
+    border-left: 0px;
+       padding-left: 20px;
+       width: 600px;
+       height: 40px;
+       border-radius: 30px;
+       border-color: #ebfffc;
+       border: 0;
+       outline: 0;
+   }
+   .btn{
+    
+       border: 0;
+       outline: 0;
+       background-color: #ebfffc ;
+       border-radius: 50%;
+       border-color: transparent;
+       width: 60px;
+       height:0px;
+       cursor: pointer;
+   }
+   .btn img{
+       width: 20px;
+       
+       background-color: #ebfffc;
+       
+       padding: 5px;
+       border-radius: 100%;
+       margin-top: 4px;
+   }
+   .weather {
+   
+    width: 200px;
+}
+.temp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+}
+.city{
+    color: white;
+    font-size: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.report{
+    display: block;
+   
+    gap:100px;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+.humidity img{
+    width: 80px;
+    height: 80px;
+}
+.wind img{
+    padding-top: 60px;
+    width: 80px;
+    height: 80px;
+}
+.humitext{
+    color: white;
+    font-size: 30px;
+}
+.windtext{
+    padding-top: 60px;
+    color: white;
+    font-size: 30px;
+}
+.humi{
+    position: absolute;
+    top: 530px;
+    left: 200px;
+    color: white;
+    font-size: 30px;
+}
+.win{
+    position: absolute;
+    top: 670px;
+    left: 200px;
+    color: white;
+    font-size: 30px;
+}
+}
