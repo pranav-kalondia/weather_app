@@ -119,14 +119,14 @@ text-align: center;
 {
 
     .card{
-        width: 79%;
-        height: 850px;
+        width: 84%;
+        height: 870px;
         max-width: 470px;
         background-image: linear-gradient(to right, #cc2b5e 0%, #753a88 100%);
         margin: 10%;
-        margin-left:10px;
-        margin-top: 5px;
-        border-radius: 20px;
+        margin-left:0px;
+        margin-top: 0px;
+        border-radius: 0px;
     padding: 5px 35px;
     text-align: center;
     }
